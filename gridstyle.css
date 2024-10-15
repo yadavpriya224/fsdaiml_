@@ -1,0 +1,104 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(6,1fr);
+    height: 600px;
+    width: 100%;
+    background-color: rgb(59, 155, 184);
+    border: 1px solid rgb(247, 148, 148);
+  
+}
+.row1,.row2,.row3,.row4{
+    border: 1px dotted rgb(67, 7, 7);
+}
+/*.row1{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: rgb(10, 117, 121);
+}*/
+.row1{
+    grid-column: 1/13;
+    grid-row: 1/2;
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.row2{
+    grid-column: 1/13;
+    grid-row: 2/3;
+    background-color: rgb(51, 49, 49);
+    height: 70px;
+    color: white;
+    border: 1px solid white;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+li:hover{
+    background-color: aqua;
+}
+.row3{
+    grid-column: 1/13;
+    grid-row: 3/4;
+}
+.row4{
+    grid-column: 1/13;
+    grid-row: 4/5;
+    height: 400px;
+    background-color: #f9e167;
+    display: flex;
+    border: 2px solid gold;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.row41,.row42,.row43,.row44{
+    width: 260px; ;
+    height: 300px;
+    border: 1px solid red;
+}
+.row41{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.row411{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: normal;
+
+
+}
+.row412{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: normal;
+}
+.row413{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: normal;
+}
+.row414{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: normal;
+}

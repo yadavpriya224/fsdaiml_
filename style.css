@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(219, 136, 35);
+}
+.container{
+    background-color: rgb(71, 122, 42);
+    height: 300px;
+    border: 2px solid black;
+    /* margin: 200px; */
+display: flex;
+flex-wrap: wrap;
+flex-flow: row-reverse;
+    padding: 20px;
+   box-sizing: border-box;
+}
+.child1{
+    background-color: rgba(58, 43, 226, 0.541);
+    height: 150px;
+    width:400px;
+    margin-left: 150px;
+    margin-top: 100px;
+    padding: 100px;
+    border-radius: 50%;
+    color: antiquewhite;
+} 
+    div+p{
+    background-color: aqua;
+ }
+ #child1
+ {
+    background-color: rgb(110, 80, 43);
+ }
+ .myclass{
+    background-color: brown;
+ } 
+  .child1,.child2,.child3,.child4{
+    background-color: rgb(42, 44, 165);
+    height: 100px;
+    width:100px ;
+    border: 2px dotted yellow;
+    /* display:inline-block; */
+  }
+  .child1{
+    background-color: red;
+    padding: 20px;
+    margin: 20px;
+  } .child2{
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+  }
+  .child3{
+    background-color: goldenrod;
+    padding: 20px;
+    margin: 20px;
+  }
+  .child4{
+    background-color: rgb(0, 255, 76);
+    padding: 20px;
+    margin: 20px;
+  }
