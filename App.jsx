@@ -34,10 +34,17 @@
 
 // export default App
 
-import React from 'react';
+import React, { useState } from 'react';
 import Student from './Student';
 import logo from './abeslogo.png';
+import ImageManipulation from './ImageManipulation';
+
+
+import Registration from './Registration';
 function App() {
+  
+  const[sharedata,setShareData]=useState();
+
   // let a = 20;
   // let mystyle = {
   //   backgroundColor: 'yellow',
@@ -49,34 +56,41 @@ function App() {
   //   justifyContent: 'center'
   // };
  
-const StudentData ={
-  college:"ABES ENGINEERING COLLEGE",
-  pic:"https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/car_4.png",
-  name:"Priya Yadav" , 
-  roll:"2022153",
-  branch:"CSE_AIML",
-  section:"B"
-}
-  return ( 
-  <div style={{marginLeft:"600px"}}>
-    <Student data={StudentData}/>
-  </div>
+// const StudentData ={
+//   college:"ABES ENGINEERING COLLEGE",
+//   pic:"https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/car_4.png",
+//   name:"Priya Yadav" , 
+//   roll:"2022153",
+//   branch:"CSE_AIML",
+//   section:"B"
+// }
+//   return ( 
+//   <div style={{marginLeft:"600px"}}>
+//     <Student data={StudentData}/>
+//   </div>
     
-    // <div style={{ color: "red" }}>
-    //   <h2>ABES Engineering College</h2>
-    //   <div style={mystyle}>{a}</div>
-    // </div>
-    // <div style={{marginLeft:"600px"}}>
-    //   <Student 
-    //   pic={<img src={logo} height='150' width='150'/>}college='ABES ENGINEERING COLLEGE' roll='220032153' name= "Priya" branch="CSE_AIML" section="B"/>
-    // <Student 
-    //   pic={<img src={logo} height='150' width='150'/>}college='ABES ENGINEERING COLLEGE' roll='220032154' name= "Riya" branch="CSE_AIML" section="B"/>
-    // <Student 
-    //   pic={<img src={logo} height='150' width='150'/>} roll='220032155' name= "Siya" branch="CSE_AIML" section="B"/>
+//     // <div style={{ color: "red" }}>
+//     //   <h2>ABES Engineering College</h2>
+//     //   <div style={mystyle}>{a}</div>
+//     // </div>
+//     // <div style={{marginLeft:"600px"}}>
+//     //   <Student 
+//     //   pic={<img src={logo} height='150' width='150'/>}college='ABES ENGINEERING COLLEGE' roll='220032153' name= "Priya" branch="CSE_AIML" section="B"/>
+//     // <Student 
+//     //   pic={<img src={logo} height='150' width='150'/>}college='ABES ENGINEERING COLLEGE' roll='220032154' name= "Riya" branch="CSE_AIML" section="B"/>
+//     // <Student 
+//     //   pic={<img src={logo} height='150' width='150'/>} roll='220032155' name= "Siya" branch="CSE_AIML" section="B"/>
    
-    // </div>
+//     // </div>
    
-  );
+//   );
+
+return(
+  
+<Registration />
+
+
+)
 }
 
 export default App;
