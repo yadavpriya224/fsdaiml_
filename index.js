@@ -1,14 +1,3 @@
-// console.log("Hello js");
-// const a=12;
-// if(a>10){
-//     let b=23;
-//     a=40;
-//     console.log("a="+a);
-// }
-// console.log("Hi, b="+);
- function fun(a,b){
-    console.log("heeeeeeeeeeeee");
-    return a+b;
- }
- let data=fun(23,4);
- console.log(data);
+const {avgs,avgsqrt}=require('./utils.js')
+console.log("AVERAGE="+avgs(12,20,10));
+console.log("AVERAGE SQRT="+avgsqrt(12,20,10));
